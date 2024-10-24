@@ -8,7 +8,7 @@ export const App = () => {
 
   return (
     <>
-      <main className="min-w-screen min-h-screen flex flex-col items-center justify-between box-border bg-neutral-900 ">
+      <main className="min-w-dvh min-h-dvh flex flex-col items-center justify-between box-border ">
         <InfoContainer wordInfo={wordInfo!} setWordInfo={setWordInfo} />
         <Footer />
       </main>
