@@ -9,7 +9,7 @@ interface Props {
 
 export const InfoContainer = ({ wordInfo, setWordInfo }: Props) => {
   return (
-    <main className="w-full flex flex-col items-center">
+    <main className="w-full h-full flex flex-col items-center lg:flex-row lg:justify-between lg:grow lg:items-stretch">
       <SearchBar wordInfo={wordInfo!} setWordInfo={setWordInfo!} />
       <WordData word={wordInfo!} />
     </main>

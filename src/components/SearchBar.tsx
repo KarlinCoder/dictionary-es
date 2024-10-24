@@ -25,7 +25,7 @@ export const SearchBar = ({ wordInfo, setWordInfo }: Props) => {
   };
 
   return (
-    <header className="w-full flex flex-col justify-center items-center text-center bg-gradient-to-br from-slate-300 to-slate-50 text-white py-16 md:py-9">
+    <header className="w-full flex flex-col justify-center items-center text-center bg-gradient-to-br from-slate-300 to-neutral-100 text-white py-16 md:py-9 lg:grow border border-b-neutral-300 lg:border-r-neutral-300 shadow-lg">
       <h1 className="text-4xl mb-4 font-bold text-neutral-700">Diccionario</h1>
       <div className="max-w-[500px] w-full px-10 box-border flex justify-center gap-1">
         <input
